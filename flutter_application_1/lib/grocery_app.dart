@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/login_screen.dart';
-import 'package:flutter_application_1/screens/signup_screen.dart';
+import 'package:flutter_application_1/screens/auth/signup_screen.dart';
 
 
 class GroceryApp extends StatelessWidget {
@@ -9,7 +8,7 @@ class GroceryApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LoginScreen(),
+      home: SignUp(),
     );
   }
 }

@@ -1,17 +1,39 @@
-# flutter_application_1
+# Flutter Login & Sign Up Screens
 
-A new Flutter project.
+A simple Flutter project for practicing **Login** and **Sign Up** screens.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Sign Up screen with:
+  - Username validation
+  - Email validation
+  - Password validation (at least 8 characters)
+  - Password show/hide button
+  - Sign Up button
+  - Navigation to Login screen
+- Login screen with:
+  - Email validation
+  - Password validation
+  - Password show/hide button
+  - Login button
+  - Navigation back to Sign Up screen
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Sign Up
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Sign Up Screen](readme_screenshots/signup_screen.png)
+
+### Login
+
+![Login Screen](readme_screenshots/login_screen.png)
+
+## Built With
+
+- Flutter
+- Dart
+
+## Note
+
+This project currently focuses on the UI, form validation, and screen navigation.
+It does not include a real backend or user authentication yet.
