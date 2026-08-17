@@ -20,13 +20,29 @@ A simple Flutter project for practicing **Login** and **Sign Up** screens.
 
 ## Screenshots
 
-### Sign Up
+### Sign Up Screen
 
-![Sign Up Screen](readme_screenshots/signup_screen.png)
+![Sign Up Screen](assets/imges/Screenshot_1786939603.png)
+
+### Login Screen
+
+![Login Screen](assets/imges/Screenshot_1786939609.png)
+
+## Screen Details
+
+### Sign Up
+- Username field
+- Email field
+- Password field with show/hide toggle
+- Validation checks
+- Sign Up button
 
 ### Login
-
-![Login Screen](readme_screenshots/login_screen.png)
+- Email field
+- Password field with show/hide toggle
+- Validation checks
+- Login button
+- Option to switch to Sign Up screen
 
 ## Built With
 
