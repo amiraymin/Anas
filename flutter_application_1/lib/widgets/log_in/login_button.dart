@@ -9,7 +9,6 @@ class LoginButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        // ---------------- LOGIN BUTTON ----------------
         GestureDetector(
           onTap: () {
             // Validate Email + Password

@@ -33,13 +33,10 @@ class _PasswordSignUpState extends State<PasswordSignUp> {
 
         // 🔒 PASSWORD TEXT FIELD
         TextFormField(
-
           // Connect field to passwordController
           controller: passwordController,
-
           // Hide / show password
           obscureText: obscurePassword,
-
           // 🔒 PASSWORD VALIDATION
           validator: (value) {
 
@@ -74,7 +71,6 @@ class _PasswordSignUpState extends State<PasswordSignUp> {
                 });
               },
             ),
-
             enabledBorder: UnderlineInputBorder(
               borderSide: BorderSide(
                 color: Color(0xffE0E0E0),
