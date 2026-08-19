@@ -1,55 +1,30 @@
-# Flutter Login & Sign Up Screens
+# Flutter Grocery App - Shop Screen Demo
 
-A simple Flutter project for practicing **Login** and **Sign Up** screens.
+This Flutter project contains a small grocery UI demonstrating common mobile app patterns.
 
-## Features
+## Screenshot
 
-- Sign Up screen with:
-  - Username validation
-  - Email validation
-  - Password validation (at least 8 characters)
-  - Password show/hide button
-  - Sign Up button
-  - Navigation to Login screen
-- Login screen with:
-  - Email validation
-  - Password validation
-  - Password show/hide button
-  - Login button
-  - Navigation back to Sign Up screen
+![Shop Screen](assets/imges/shop_screen.png)
 
-## Screenshots
+> Place the provided shop screen image at `assets/imges/shop_screen.png` to show the UI above.
 
-### Sign Up Screen
+## Proof of Learning
 
-![Sign Up Screen](assets/imges/Screenshot_1786939603.png)
+- **Bottom navigation bar:** implemented with `BottomNavigationBar` to switch between `Shop`, `Explore`, `Cart`, `Favorite`, and `Account` pages.
+- **Adding items & switching:** each tab is an item in the navigation bar; tapping updates the selected index and switches content using conditional rendering or a `IndexedStack`.
+- **Unbordered TextFormField:** used an `InputDecoration` with `border: InputBorder.none` (or `enabledBorder: InputBorder.none`) to create an unbordered search field inside the app bar or top area.
 
-### Login Screen
+## How to reproduce
 
-![Login Screen](assets/imges/Screenshot_1786939609.png)
-
-## Screen Details
-
-### Sign Up
-- Username field
-- Email field
-- Password field with show/hide toggle
-- Validation checks
-- Sign Up button
-
-### Login
-- Email field
-- Password field with show/hide toggle
-- Validation checks
-- Login button
-- Option to switch to Sign Up screen
+1. Add the screenshot file to `assets/imges/shop_screen.png`.
+2. Ensure `pubspec.yaml` includes the `assets/imges/` folder under `flutter.assets`.
+3. Run the app with `flutter run` to view the shop screen and test the bottom navigation and search field.
 
 ## Built With
 
 - Flutter
 - Dart
 
-## Note
+## Notes
 
-This project currently focuses on the UI, form validation, and screen navigation.
-It does not include a real backend or user authentication yet.
+This repository focuses on UI patterns (navigation, forms, and layout). It doesn't include backend services or persistent storage.
