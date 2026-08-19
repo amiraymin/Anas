@@ -1,4 +1,3 @@
-<img width="1080" height="2424" alt="Screenshot_1787182794" src="https://github.com/user-attachments/assets/686ee7d7-9ec4-4074-91bf-b11170e34bd3" /># Flutter Grocery App - Shop Screen Demo
 
 This Flutter project contains a small grocery UI demonstrating common mobile app patterns.
 
