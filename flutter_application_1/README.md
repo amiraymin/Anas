@@ -1,4 +1,4 @@
-# Flutter Grocery App - Shop Screen Demo
+<img width="1080" height="2424" alt="Screenshot_1787182794" src="https://github.com/user-attachments/assets/686ee7d7-9ec4-4074-91bf-b11170e34bd3" /># Flutter Grocery App - Shop Screen Demo
 
 This Flutter project contains a small grocery UI demonstrating common mobile app patterns.
 
@@ -6,7 +6,8 @@ This Flutter project contains a small grocery UI demonstrating common mobile app
 
 ![Shop Screen](assets/imges/shop_screen.png)
 
-> Place the provided shop screen image at `assets/imges/shop_screen.png` to show the UI above.
+> <img width="1080" height="2424" alt="Screenshot_1787182794" src="https://github.com/user-attachments/assets/ec9b1a92-2913-4e61-8702-330af74841d0" />
+
 
 ## Proof of Learning
 
