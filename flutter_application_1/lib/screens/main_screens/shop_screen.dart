@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter_application_1/widgets/shop_screen/search_box.dart';
+import 'package:flutter_application_1/widgets/shop_screen/shop_slider.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class ShopScreen extends StatefulWidget {
   const ShopScreen({super.key});
@@ -8,6 +12,7 @@ class ShopScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<ShopScreen> {
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -17,7 +22,7 @@ class _HomeScreenState extends State<ShopScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Center(child: Image.asset("assets/imges/carrot.png", width: 30)),
-        
+
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -32,26 +37,15 @@ class _HomeScreenState extends State<ShopScreen> {
                 ),
               ],
             ),
-            SizedBox(height: 20),
-            TextFormField(
-              cursorColor: Color(0xff53B175),
-              onTapOutside: (v) {
-                FocusScope.of(context).unfocus();
-              },
-        
-              decoration: InputDecoration(
-                
-                hintText: "Search Store",
-        
-                prefixIcon: Icon(Icons.search),
-        
-                enabledBorder: OutlineInputBorder(borderSide: BorderSide.none),
-                focusedBorder: OutlineInputBorder(borderSide: BorderSide.none),
-              ),
-            ),
+            const SizedBox(height: 20),
+            SearchBox(),
+            const SizedBox(height: 20),
+            ShopSlider()
+
           ],
         ),
       ),
     );
   }
 }
+

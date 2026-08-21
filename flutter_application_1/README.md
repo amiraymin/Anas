@@ -4,7 +4,7 @@ This Flutter project contains a small grocery UI demonstrating common mobile app
 
 ## Screenshot
 
-![Shop Screen](assets/imges/shop_screen.png)
+![Shop Screen](assets/imges/slider.png)
 
 > Place the provided shop screen image at `assets/imges/shop_screen.png` to show the UI above.
 
