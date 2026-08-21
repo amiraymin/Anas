@@ -1,12 +1,11 @@
-# Flutter Grocery App - Shop Screen Demo
 
 This Flutter project contains a small grocery UI demonstrating common mobile app patterns.
 
 ## Screenshot
 
 ![Shop Screen](assets/imges/slider.png)
+> <img width="1080" height="2424" alt="Screenshot_1787182794" src="https://github.com/user-attachments/assets/ec9b1a92-2913-4e61-8702-330af74841d0" />
 
-> Place the provided shop screen image at `assets/imges/shop_screen.png` to show the UI above.
 
 ## Proof of Learning
 
