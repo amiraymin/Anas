@@ -1,3 +1,4 @@
+
 # Grocery App
 
 A simple grocery app made with Flutter.
@@ -14,6 +15,10 @@ A simple grocery app made with Flutter.
 
 ### Home Slider & Bottom Navigation Bar
 <img width="1080" height="2424" alt="slider" src="https://github.com/user-attachments/assets/e2992363-2343-499a-82e4-0d9a0a1199b7" />
+
+### Adding some items
+<img width="1080" height="2424" alt="Screenshot_1787768982" src="https://github.com/user-attachments/assets/e6442fa8-656c-4d03-9d30-0d441ad9273b" />
+
 
 ## Features
 
