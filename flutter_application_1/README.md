@@ -17,7 +17,6 @@ A simple grocery app made with Flutter.
 ![Home Slider](assets/imges/slider.png)
 
 ### Shop Screen
-Add the shop screen screenshot below. Place the image file at `assets/screenshots/shop_screen.png` and it will display here.
 ![Shop Screen](assets/imges/items.png)
 
 ## Features
@@ -30,3 +29,4 @@ Add the shop screen screenshot below. Place the image file at `assets/screenshot
 - Bottom navigation bar
 - Image slider with 3 slides
 - Three indicator dots that change when scrolling
+- Shop screen
