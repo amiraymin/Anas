@@ -1,29 +1,32 @@
+# Grocery App
 
-This Flutter project contains a small grocery UI demonstrating common mobile app patterns.
+A simple grocery app made with Flutter.
 
-## Screenshot
+## Screens
 
-![Shop Screen](assets/imges/slider.png)
-> <img width="1080" height="2424" alt="Screenshot_1787182794" src="https://github.com/user-attachments/assets/ec9b1a92-2913-4e61-8702-330af74841d0" />
+### Sign Up
+![Sign Up Screen](assets/imges/signup.png)
 
+### Login
+![Login Screen](assets/imges/login.png)
 
-## Proof of Learning
+### Bottom Navigation Bar
+![Bottom Navigation Bar](assets/imges/bottom_nav_bar.png)
 
-- **Bottom navigation bar:** implemented with `BottomNavigationBar` to switch between `Shop`, `Explore`, `Cart`, `Favorite`, and `Account` pages.
-- **Adding items & switching:** each tab is an item in the navigation bar; tapping updates the selected index and switches content using conditional rendering or a `IndexedStack`.
-- **Unbordered TextFormField:** used an `InputDecoration` with `border: InputBorder.none` (or `enabledBorder: InputBorder.none`) to create an unbordered search field inside the app bar or top area.
+### Home Slider
+![Home Slider](assets/imges/slider.png)
 
-## How to reproduce
+### Shop Screen
+Add the shop screen screenshot below. Place the image file at `assets/screenshots/shop_screen.png` and it will display here.
+![Shop Screen](assets/imges/items.png)
 
-1. Add the screenshot file to `assets/imges/shop_screen.png`.
-2. Ensure `pubspec.yaml` includes the `assets/imges/` folder under `flutter.assets`.
-3. Run the app with `flutter run` to view the shop screen and test the bottom navigation and search field.
+## Features
 
-## Built With
-
-- Flutter
-- Dart
-
-## Notes
-
-This repository focuses on UI patterns (navigation, forms, and layout). It doesn't include backend services or persistent storage.
+- Sign Up and Login screens
+- Username, email, and password validation
+- Email validation with a green check mark
+- Password show/hide button
+- Navigation between Sign Up and Login
+- Bottom navigation bar
+- Image slider with 3 slides
+- Three indicator dots that change when scrolling

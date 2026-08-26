@@ -11,7 +11,7 @@ class _AccountScreenState extends State<AccountScreen> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("Accoudddddddddddddddnt Screen"),
+      child: Text("Account Screen"),
     );
   }
 }
