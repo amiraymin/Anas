@@ -68,7 +68,6 @@ import 'package:flutter_application_1/models/product.dart';
               Container(
                 height: 45.67,
                 width: 45.67,
-
                 decoration: BoxDecoration(
                   color: Color(0xff53B175),
                   borderRadius: BorderRadius.circular(17),
