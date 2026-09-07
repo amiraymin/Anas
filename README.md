@@ -19,6 +19,9 @@ A simple grocery app made with Flutter.
 ### Adding some items
 <img width="1080" height="2424" alt="Screenshot_1787769897" src="https://github.com/user-attachments/assets/763dace3-5522-4561-b9f6-ce31bd5b5dd3" />
 
+### Adding account screen 
+<img width="1080" height="2424" alt="Screenshot_1788190076" src="https://github.com/user-attachments/assets/1866171a-f9f6-402f-912a-f9b6b0c132d8" />
+
 
 
 ## Features
@@ -31,3 +34,4 @@ A simple grocery app made with Flutter.
 - Bottom navigation bar
 - Image slider with 3 slides
 - Three indicator dots that change when scrolling
+
