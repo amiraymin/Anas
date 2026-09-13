@@ -1,37 +1,73 @@
+# FreshCart
 
-# Grocery App
+FreshCart is a Flutter grocery-shopping application that makes it easy to discover products, manage a basket, save favourites, and complete an order through a clear mobile-first checkout flow.
 
-A simple grocery app made with Flutter.
+The interface uses a clean white layout, focused product imagery, and a consistent green action colour to keep browsing and purchasing simple and approachable.
 
-## Screens
+## Screenshots
 
-### Sign Up
-<img width="1080" height="2424" alt="signup" src="https://github.com/user-attachments/assets/d3b56302-00c9-4728-b1b3-da1cf6041c7c" />
+| Onboarding | Sign up | Sign in |
+| :---: | :---: | :---: |
+| ![FreshCart onboarding screen](assets/imges/onboarding.jpg) | ![FreshCart sign-up screen](assets/imges/signup.png) | ![FreshCart sign-in screen](assets/imges/login.png) |
 
+| Home and offers | Bottom navigation | Promotional slider |
+| :---: | :---: | :---: |
+| ![FreshCart shop and offers screen](assets/imges/items.png) | ![FreshCart bottom navigation](assets/imges/bottom_nav_bar.png) | ![FreshCart promotional slider](assets/imges/slider.png) |
 
-### Login
-<img width="1080" height="2424" alt="login" src="https://github.com/user-attachments/assets/27316c52-3c8f-44d4-8627-0f640470f21b" />
+## Core features
 
+- **Authentication experience** — onboarding, sign-up, and sign-in screens with form validation and password visibility controls.
+- **Shop home** — promotional carousel, exclusive offers, best-selling products, and reusable product cards.
+- **Explore catalogue** — category browsing, a dedicated Beverages catalogue, product search, and selectable category and brand filters.
+- **Persistent tab navigation** — direct access to Shop, Explore, Cart, Favourite, and Account areas from the bottom navigation bar.
+- **Cart management** — item quantities can be increased or decreased, products can be removed, and the order total updates automatically.
+- **Favourites** — a concise saved-products list with pricing and an “Add All To Cart” action.
+- **Checkout journey** — a checkout summary sheet with delivery, payment, promotion, and total-cost rows; placing an order leads to a confirmation screen.
+- **Order states** — polished order-accepted and order-failed interfaces, ready to connect to a payment or order-processing service.
 
-### Home Slider & Bottom Navigation Bar
-<img width="1080" height="2424" alt="slider" src="https://github.com/user-attachments/assets/e2992363-2343-499a-82e4-0d9a0a1199b7" />
+## Checkout flow
 
-### Adding some items
-<img width="1080" height="2424" alt="Screenshot_1787769897" src="https://github.com/user-attachments/assets/763dace3-5522-4561-b9f6-ce31bd5b5dd3" />
+1. Open **Cart** and select **Go to Checkout**.
+2. Review delivery, payment, promotional discount, and the calculated total.
+3. Select **Place Order** to view the order-accepted confirmation screen.
+4. The included failed-order dialog can be presented when payment or fulfilment returns an error.
 
-### Adding account screen 
-<img width="1080" height="2424" alt="Screenshot_1788190076" src="https://github.com/user-attachments/assets/1866171a-f9f6-402f-912a-f9b6b0c132d8" />
+## Technology
 
+- [Flutter](https://flutter.dev/) and Dart
+- Material Design widgets and responsive layouts
+- Local image assets for grocery products and promotional content
+- `carousel_slider` and `smooth_page_indicator` for home-screen promotions
 
+## Getting started
 
-## Features
+### Prerequisites
 
-- Sign Up and Login screens
-- Username, email, and password validation
-- Email validation with a green check mark
-- Password show/hide button
-- Navigation between Sign Up and Login
-- Bottom navigation bar
-- Image slider with 3 slides
-- Three indicator dots that change when scrolling
+- Flutter SDK (stable channel)
+- A device, emulator, or browser supported by Flutter
 
+### Run locally
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Project structure
+
+```text
+lib/
+├── models/                 # Product, category, and cart data models
+├── screens/
+│   ├── auth/               # Onboarding and authentication screens
+│   ├── main_screens/       # Shop, Explore, Cart, Favourite, and checkout UI
+│   └── product_detail/     # Individual product details
+└── widgets/                # Reusable UI components
+```
+
+## Future improvements
+
+- Connect authentication, catalogue, cart, and checkout data to a backend.
+- Persist saved favourites and cart contents between sessions.
+- Integrate delivery and payment providers.
+- Add automated widget and integration tests for the purchase journey.
