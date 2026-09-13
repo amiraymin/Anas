@@ -6,13 +6,33 @@ The interface uses a clean white layout, focused product imagery, and a consiste
 
 ## Screenshots
 
-| Onboarding | Sign up | Sign in |
-| :---: | :---: | :---: |
-| ![FreshCart onboarding screen](assets/imges/onboarding.jpg) | ![FreshCart sign-up screen](assets/imges/signup.png) | ![FreshCart sign-in screen](assets/imges/login.png) |
+The following captures show the complete primary user journey, from first launch and account access to product discovery, basket management, and checkout.
 
-| Home and offers | Bottom navigation | Promotional slider |
-| :---: | :---: | :---: |
-| ![FreshCart shop and offers screen](assets/imges/items.png) | ![FreshCart bottom navigation](assets/imges/bottom_nav_bar.png) | ![FreshCart promotional slider](assets/imges/slider.png) |
+### First launch and account access
+
+<p align="center">
+  <img src="docs/screenshots/splash.png" width="220" alt="FreshCart splash screen">
+  <img src="docs/screenshots/welcome.png" width="220" alt="FreshCart welcome screen">
+  <img src="docs/screenshots/login.png" width="220" alt="FreshCart login screen">
+  <img src="docs/screenshots/sign-up.png" width="220" alt="FreshCart sign-up screen">
+</p>
+
+### Browse and manage groceries
+
+<p align="center">
+  <img src="docs/screenshots/shop-home.png" width="220" alt="FreshCart shop home screen">
+  <img src="docs/screenshots/explore.png" width="220" alt="FreshCart product exploration screen">
+  <img src="docs/screenshots/cart.png" width="220" alt="FreshCart cart screen">
+  <img src="docs/screenshots/favourites.png" width="220" alt="FreshCart favourites screen">
+  <img src="docs/screenshots/account.png" width="220" alt="FreshCart account screen">
+</p>
+
+### Checkout and confirmation
+
+<p align="center">
+  <img src="docs/screenshots/checkout.png" width="220" alt="FreshCart checkout screen">
+  <img src="docs/screenshots/order-accepted.png" width="220" alt="FreshCart order accepted screen">
+</p>
 
 ## Core features
 
