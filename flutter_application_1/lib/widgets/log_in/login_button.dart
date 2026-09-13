@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 
 class LoginButton extends StatelessWidget {
   final GlobalKey<FormState> formKey;
+  final VoidCallback onLoginPressed;
 
-  const LoginButton({super.key, required this.formKey});
+  const LoginButton({
+    super.key,
+    required this.formKey,
+    required this.onLoginPressed,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -13,10 +18,7 @@ class LoginButton extends StatelessWidget {
           onTap: () {
             // Validate Email + Password
             if (formKey.currentState!.validate()) {
-              // Everything is valid
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text("Login successful!")),
-              );
+              onLoginPressed();
             }
           },
 

@@ -3,6 +3,7 @@ import 'package:flutter_application_1/widgets/sign_up/signup_email.dart';
 import 'package:flutter_application_1/widgets/sign_up/signup_password.dart';
 import 'package:flutter_application_1/widgets/sign_up/signup_header.dart';
 import 'package:flutter_application_1/widgets/sign_up/signup_username.dart';
+import 'package:flutter_application_1/screens/main_screens/bottom_nav.dart';
 import 'login_screen.dart';
 
 class SignUp extends StatefulWidget {
@@ -11,12 +12,9 @@ class SignUp extends StatefulWidget {
   @override
   State<SignUp> createState() => _SignUpState();
 }
-final usernameController = TextEditingController();
-final emailController = TextEditingController();
-final passwordController = TextEditingController();
-final _formKey = GlobalKey<FormState>();
 
 class _SignUpState extends State<SignUp> {
+  final _formKey = GlobalKey<FormState>();
   bool obscurePassword = true;
   bool isEmailValid = false;
 
@@ -103,16 +101,13 @@ class _SignUpState extends State<SignUp> {
                         // Validate username + email + password
                         if (_formKey.currentState!.validate()) {
                           // ------------------------------------------
-                          // EVERYTHING IS VALID
-                          // Move to Login Screen
-                          // ------------------------------------------
-
-                          Navigator.push(
+                          // EVERYTHING IS VALID: enter the app home screen.
+                          Navigator.pushAndRemoveUntil(
                             context,
-
                             MaterialPageRoute(
-                              builder: (context) => const LoginScreen(),
+                              builder: (_) => const BottomNav(),
                             ),
+                            (route) => false,
                           );
                         }
                       },

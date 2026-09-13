@@ -4,6 +4,8 @@ import 'package:flutter_application_1/widgets/log_in/login_header.dart';
 import 'package:flutter_application_1/widgets/log_in/login_password.dart';
 import 'package:flutter_application_1/widgets/log_in/login_button.dart';
 import 'package:flutter_application_1/widgets/log_in/login_signup.dart';
+import 'package:flutter_application_1/screens/auth/signup_screen.dart';
+import 'package:flutter_application_1/screens/main_screens/bottom_nav.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -40,10 +42,22 @@ class _LoginScreenState extends State<LoginScreen> {
                   LoginHeader(),
                   LoginEmail(emailController: emailController),
                   LoginPassword(passwordController: passwordController),
-                  LoginButton(formKey: _formKey),
+                  LoginButton(
+                    formKey: _formKey,
+                    onLoginPressed: () {
+                      Navigator.pushAndRemoveUntil(
+                        context,
+                        MaterialPageRoute(builder: (_) => const BottomNav()),
+                        (route) => false,
+                      );
+                    },
+                  ),
                   LoginSignup(
                     onSignupPressed: () {
-                      Navigator.pop(context);
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (_) => const SignUp()),
+                      );
                     },
                   ),
                 ],
